@@ -4,10 +4,21 @@
     box-sizing: border-box;
 }
 
+/*inizio header*/
 .titolo{
     color: rgb(228, 20, 100);
     text-align: center;
     font-family: 'Fredoka', sans-serif;
     padding: 40px;
     font-size: 50px;
+}
+/*fine header*/
+.testo{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Fredoka', sans-serif;
+}
+.contenitore{
+    margin: auto;
+    max-width: 1400px;
 }
