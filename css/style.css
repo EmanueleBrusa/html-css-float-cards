@@ -28,11 +28,43 @@ body{
     width: 100%;
     background-color: yellow;
 }
-.contenuto-colonna{
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.colonna{
     width: calc(100/3 - 20px);
     height: 150px;
     background-color: blue;
     float: left;
     margin: 10px;
+}
+.contenuto-colonna{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 150px;
+}
+.testo-carta{
+    padding: 10px;
+    float: right;
+    width: calc(100% - 125px);
+}
+.contenuto-colonna::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    float: left;
+    width: 125px;
+}
+h2, .lavoro, a{
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
 }
 /*fine main*/
