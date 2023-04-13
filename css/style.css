@@ -33,7 +33,7 @@ body{
     clear: both;
 }
 .colonna{
-    width: calc(100/3 - 20px);
+    width: calc((100% - 192px) / 3);
     float: left;
     margin: 32px;
 }
