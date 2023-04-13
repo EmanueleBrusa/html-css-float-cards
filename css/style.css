@@ -13,6 +13,7 @@
     font-size: 50px;
 }
 /*fine header*/
+/*inizio main*/
 .testo{
     text-align: center;
     font-weight: lighter;
@@ -31,5 +32,17 @@
     width: calc(100% / 6 + 30px);
 }
 .contenuto-colonna{
-    padding-top: 60px;
+    margin: 50px;
+    margin-bottom: -10px;
+    width: 100px;
+    background-color: black;
 }
+img{
+    width: 125%;
+}
+.contenuto-colonna::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*fine main*/
