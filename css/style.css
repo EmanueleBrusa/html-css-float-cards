@@ -3,13 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Fredoka', sans-serif;
+}
 /*inizio header*/
 .titolo{
     color: rgb(228, 20, 100);
     text-align: center;
-    font-family: 'Fredoka', sans-serif;
-    padding: 40px;
+    padding-top: 40px;
     font-size: 50px;
 }
 /*fine header*/
@@ -17,7 +18,7 @@
 .testo{
     text-align: center;
     font-weight: lighter;
-    font-family: 'Fredoka', sans-serif;
+    margin: 50px auto;
 }
 .contenitore{
     margin: 0 auto;
@@ -27,22 +28,11 @@
     width: 100%;
     background-color: yellow;
 }
-.colonna{
-    float: left;
-    width: calc(100% / 6 + 30px);
-}
 .contenuto-colonna{
-    margin: 50px;
-    margin-bottom: -10px;
-    width: 100px;
-    background-color: black;
-}
-img{
-    width: 125%;
-}
-.contenuto-colonna::after{
-    content: "";
-    display: table;
-    clear: both;
+    width: calc(100/3 - 20px);
+    height: 150px;
+    background-color: blue;
+    float: left;
+    margin: 10px;
 }
 /*fine main*/
